@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Franchise vs Company Stores</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-primary text-center my-4">Franchise vs Company Stores Analysis</h1>
+        <div class="row mb-4 text-center">
+            <div class="col-md-12">
+                <button class="btn btn-primary mb-3" onclick="switchFranchiseImage('2021')">2021</button>
+                <button class="btn btn-secondary mb-3" onclick="switchFranchiseImage('2024')">2024</button>
+                <button class="btn btn-secondary mb-3" onclick="switchFranchiseImage('change')">Change</button>
+                <div>
+                    <img id="franchiseImage" class="img-fluid" src="Resources/franchise_vs_company_stores(2021).png" alt="Franchise vs Company Stores">
+                </div>
+                <p id="franchiseDescription" class="mt-2">This chart shows the distribution of franchise and company-owned units in 2021, offering a comparison to the 2024 data to identify trends and changes over time.</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        function switchFranchiseImage(year) {
+            const image = document.getElementById('franchiseImage');
+            const description = document.getElementById('franchiseDescription');
+            if (year === '2021') {
+                image.src = "Resources/franchise_vs_company_stores(2021).png";
+                description.textContent = "This chart shows the distribution of franchise and company-owned units in 2021.";
+            } else if (year === '2024') {
+                image.src = "Resources/franchise_vs_company_store(2024).png";
+                description.textContent = "This visualization compares the number of franchise and company-owned units across various fast-food companies in 2024.";
+            } else if (year === 'change') {
+                image.src = "Resources/total_store_units(2021-2024).png";
+                description.textContent = "This chart displays the change in total store units from 2021 to 2024 across various fast-food chains.";
+            }
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
