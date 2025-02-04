@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 
@@ -121,3 +122,84 @@
 </body>
 
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fast Food Restaurant Locations</title>
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+
+  <!-- Leaflet JavaScript -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+
+  <!-- PapaParse for CSV Parsing -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+
+  <style>
+    #map {
+      height: 500px;
+      width: 100%;
+      border: 2px solid #ddd;
+      border-radius: 8px;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h2>Fast Food Restaurant Locations</h2>
+  <input type="file" id="csvFileInput" accept=".csv">
+  <div id="map"></div>
+
+  <script>
+    // Initialize the map
+    var map = L.map('map').setView([39.8283, -98.5795], 4); // Center of US
+
+    // Add OpenStreetMap tiles
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    }).addTo(map);
+
+    // Function to load CSV file
+    document.getElementById("csvFileInput").addEventListener("change", function (event) {
+      const file = event.target.files[0];
+      if (!file) return;
+
+      Papa.parse(file, {
+        header: true,
+        skipEmptyLines: true,
+        complete: function (results) {
+          plotLocations(results.data);
+        }
+      });
+    });
+
+    // Function to plot markers
+    function plotLocations(data) {
+      data.forEach(row => {
+        const lat = parseFloat(row.latitude);
+        const lon = parseFloat(row.longitude);
+        const name = row.name;
+
+        if (!isNaN(lat) && !isNaN(lon)) {
+          L.marker([lat, lon]).addTo(map).bindPopup(`<b>${name}</b>`);
+        }
+      });
+    }
+  </script>
+
+</body>
+</html>
+>>>>>>> 8d610b7a3c2bea955a9c96ebbc3f982e214ff3a2
