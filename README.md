@@ -4,6 +4,12 @@ We approached it by looking at the nutritional value to see what kind of food yo
 We observed and mapped the locations where fast food chains were thriving.
 We also looked at the finanicals of each of the major fast food companies as well.
 
+Data Cleaning
+There were multiple outliers in the data expecially in the nutrition set(50 piece platter meals) which were dropped.
+Duplicates and nulls were removed as well.
+
+The Data was then uploaded to PGADMIN SQL due to it being an easy to use relational data base.
+
 Project Requirements
 Data Visualization Track Requirements (75 points)
 Data and Delivery (20 points)
