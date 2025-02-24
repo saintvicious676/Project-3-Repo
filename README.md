@@ -4,9 +4,9 @@ Our group chose to take on the concept of informing potential franchise investor
 <br>
 **Setup:**<br>
 **Data Cleaning:**
-There were multiple outliers in the data expecially in the nutrition set(50 piece platter meals) which were dropped.
-Duplicates and nulls were removed as well.<br>
-The Data was then uploaded to PGADMIN SQL due to it being an easy to use relational data base.<br>
+There were multiple outliers in the data expecially in the nutrition set(50 piece platter meals) which were dropped. Duplicates and nulls were removed as well.<br>
+The CSV file for the location of fast food restaurants in the US was converted into a geoJSON file. <br>
+The data from all group members was then uploaded to PGADMIN SQL due to it being an easy to use relational database. Each group member created a sql table for their portion of the project and a database was created using all 4 of the tables.<br>
 
 **Application for Actionable Insights:**<br>
 **Leaflet Map with Locations of Restaurants:**<br>
@@ -14,10 +14,10 @@ The purpose of the leaflet map containing the locations of popular fast food cha
 **Usage:** The map is able to be toggled among all the locations of the restaurants in the dropdown menu, as well as be specific as to which restaurants to be shown, with no limit amongst the choices. Users start the map from the middle of the United States with all locations being toggled on and can navigate to the dropdown menu on the top right of the map to select which franchises to view. The map uses clusters to group locations. To zoom in on a certain part of the map, users can scroll into the area of interest, or click on the cluster group and it will zoom in automatically. To see what restaurants are present in the area, users can click on the marker and a pop-up of the restaurants name will show up above the marker.<br>
 <br>
 **Data source for map:** https://www.kaggle.com/datasets/rishidamarla/fast-food-restaurants-in-america <br>
-**Code reference:** To utilize the data source, I used this website to convert the csv file into a geoJSON file for Leaflet: https://www.convertcsv.com/csv-to-geojson.htm <br>
+**Code source for map creation:** https://leafletjs.com/2012/08/20/guest-post-markerclusterer-0-1-released.html <br>
+https://leafletjs.com/examples/geojson/<br>
+**Code reference:** To utilize the data source, I used this website to convert the CSV file into a geoJSON file for Leaflet: https://www.convertcsv.com/csv-to-geojson.htm <br>
 
-
-The Data was then uploaded to PGADMIN SQL due to it being an easy to use relational data base.
 
 Project Requirements
 Data Visualization Track Requirements (75 points)
