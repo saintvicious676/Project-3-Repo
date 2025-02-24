@@ -10,7 +10,7 @@ The CSV file for the location of fast food restaurants in the US was converted i
 <br>
 The data from all group members was then uploaded to PGADMIN SQL due to it being an easy to use relational database. Each group member created a sql table for their portion of the project and a database was created using all 4 of the tables.<br>
 <br>
-**Map Creation:**<br>
+**Fast Food Locations Map Creation:**<br>
 The map was created by using Leaflet to plot out the locations of the different fast food restaurants from the converted geoJSON file. This map includes 10 of the top fast food franchises in the United States, each of which pop up individually. To do this I filtered each feature to only include the restaurants with the exact name. and create a pop-up with the name of the restaurant. To reduce the clutter and load time of the webpage, I created a cluster group containing clusters for each of the different franchises which grouped each franchise into its own bubble with a number based on the amount of restaurants that were in the are. To further filter and sort the different franchises, I created an overlay to be able to toggle which franchises were shown on the map at a time.<br>
 <br>
 
