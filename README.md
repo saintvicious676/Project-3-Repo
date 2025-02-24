@@ -26,8 +26,3 @@ https://leafletjs.com/examples/geojson/<br>
 <br>
 **Ethical Considerations to Project**: <br>
 We minimized the data collection to only include relevant information and not include personal information or any identifying characteristics that would be deemed harmful. Specifically for the data regarding for fast food locations, only the location details were gathered and not any personal information about workers from that location. This retains the anonymity of the individuals while allowing us to use the other details of the restaurant.
-
-The content is relevant to the project. (5 points)
-The presentation maintains audience interest. (5 points)
-Content, transitions, and conclusions flow smoothly within any time restrictions. (10 points)
-
