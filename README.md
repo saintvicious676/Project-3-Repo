@@ -19,6 +19,9 @@ The purpose of the leaflet map containing the locations of popular fast food cha
 **Code source for map creation:** https://leafletjs.com/2012/08/20/guest-post-markerclusterer-0-1-released.html <br>
 https://leafletjs.com/examples/geojson/<br>
 **Code reference:** To utilize the data source, I used this website to convert the CSV file into a geoJSON file for Leaflet: https://www.convertcsv.com/csv-to-geojson.htm <br>
+<br>
+**Ethical Considerations to Project**: <br>
+We minimized the data collection to only include relevant information and not include personal information or any identifying characteristics that would be deemed harmful. Specifically for the data regarding for fast food locations, only the location details were gathered and not any personal information about workers from that location. This retains the anonymity of the individuals while allowing us to use the other details of the restaurant.
 
 
 Project Requirements
