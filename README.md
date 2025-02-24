@@ -1,6 +1,12 @@
 # Project-3-Repo
 **Overview**<br>
-Our group chose to take on the concept of informing potential franchise investors on which fast food chain fits them best. We approached it by creating a webpage that shows valuable metrics for deciding which franchise, if any, provides the best investment. These metrics include nutrtional values for the food of the franchise, revenue sales & distribution, locations of stores within the United States, and which franchises are the most popular in the US.
+Our group chose to take on the concept of informing potential franchise investors on which fast food chain fits them best. We approached it by creating a webpage that shows valuable metrics for deciding which franchise, if any, provides the best investment. These metrics include nutrtional values for the food of the franchise, revenue sales & distribution, locations of stores within the United States, and which franchises are the most popular in the US. <br>
+<br>
+**Setup:**<br>
+**Data Cleaning:**
+There were multiple outliers in the data expecially in the nutrition set(50 piece platter meals) which were dropped.
+Duplicates and nulls were removed as well.<br>
+The Data was then uploaded to PGADMIN SQL due to it being an easy to use relational data base.
 
 **Leaflet Map with Locations of Restaurants:**<br>
 The purpose of the leaflet map containing the locations of popular fast food chains in the United States is to help business executives and future franchisees make informed decisions on where and how to expand their business. Being able to see the locations of some of the top fast food chains in America can help inform businesses of expansion to areas that are under-serviced and even areas that are over-saturated with categories of food they may offer. In addition to seeing the saturation of locations, the map can help with geographic diversity, and potentially branching out to different parts of the US to avoid being limited or dependent on a single type of region (rural or urban). The information can be used in conjunction with logistical analysis to create a plan of action that ensures supplies are delivered to current locations, or potential locations, in an efficient manner, which could lead to minimizing operational costs. From a research and data analysis perspective, this map could also help gather data from different areas of the United States and learn customer preferences and trends in distinct regions, which can allow management to fine-tune the offerings and even allow the marketing teams to come up with specific strategies for the different regions.<br> 
@@ -9,10 +15,6 @@ The purpose of the leaflet map containing the locations of popular fast food cha
 **Data source for map:** https://www.kaggle.com/datasets/rishidamarla/fast-food-restaurants-in-america <br>
 **Code reference:** To utilize the data source, I used this website to convert the csv file into a geoJSON file for Leaflet: https://www.convertcsv.com/csv-to-geojson.htm <br>
 
-
-Data Cleaning
-There were multiple outliers in the data expecially in the nutrition set(50 piece platter meals) which were dropped.
-Duplicates and nulls were removed as well.
 
 The Data was then uploaded to PGADMIN SQL due to it being an easy to use relational data base.
 
