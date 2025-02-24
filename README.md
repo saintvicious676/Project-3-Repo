@@ -1,6 +1,6 @@
 # Project-3-Repo
 **Overview**<br>
-Our group chose to take on the concept of informing potential franchise investors on which fast food chain fits them best. We approached it by creating a webpage that shows valuable metrics for deciding which franchise, if any, provides the best investment. These metrics include nutrtional values for the food of the franchise, revenue sales & distribution, locations of stores within the United States, and which franchises are the most popular in the US. <br>
+Our group chose to take on the concept of informing potential franchise investors on which fast food chain fits them best. This information can also be used to inform the companies of findings that can be used to expand or inform internal changes. We approached it by creating a webpage that shows valuable metrics for deciding which franchise, if any, provides the best investment. These metrics include nutrtional values for the food of the franchise, revenue sales & distribution, locations of stores within the United States, and which franchises are the most popular in the US. <br>
 <br>
 **Setup:**<br>
 **Data Cleaning:**
