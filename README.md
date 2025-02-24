@@ -5,7 +5,9 @@ Our group chose to take on the concept of informing potential franchise investor
 **Setup:**<br>
 **Data Cleaning:**
 There were multiple outliers in the data expecially in the nutrition set(50 piece platter meals) which were dropped. Duplicates and nulls were removed as well.<br>
+<br>
 The CSV file for the location of fast food restaurants in the US was converted into a geoJSON file. <br>
+<br>
 The data from all group members was then uploaded to PGADMIN SQL due to it being an easy to use relational database. Each group member created a sql table for their portion of the project and a database was created using all 4 of the tables.<br>
 
 **Application for Actionable Insights:**<br>
