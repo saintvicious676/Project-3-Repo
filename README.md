@@ -24,6 +24,7 @@ The map was created by using Leaflet to plot out the locations of the different 
 *The information can be used in conjunction with logistical analysis to create a plan of action that ensures supplies are delivered to current locations, or potential locations, in an efficient manner, which could lead to minimizing operational costs.<br>
 <br>
 *From a research and data analysis perspective, this map could also help gather data from different areas of the United States and learn customer preferences and trends in distinct regions, which can allow management to fine-tune the offerings and even allow the marketing teams to come up with specific strategies for the different regions.<br>
+![image](https://github.com/user-attachments/assets/80c6dfb1-26a4-48a1-99c2-86dbc797c1e0)
 <br>
 **Usage:** The map is able to be toggled among all the locations of the restaurants in the dropdown menu, as well as be specific as to which restaurants to be shown, with no limit amongst the choices. Users start the map from the middle of the United States with all locations being toggled on and can navigate to the dropdown menu on the top right of the map to select which franchises to view. The map uses clusters to group locations. To zoom in on a certain part of the map, users can scroll into the area of interest, or click on the cluster group and it will zoom in automatically. To see what restaurants are present in the area, users can click on the marker and a pop-up of the restaurants name will show up above the marker.<br>
 <br>
