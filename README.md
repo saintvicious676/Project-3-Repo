@@ -16,6 +16,7 @@ The map was created by using Leaflet to plot out the locations of the different 
 
 **Application for Actionable Insights:**<br>
 **Leaflet Map with Locations of Restaurants:**<br>
+<br>
 - The purpose of the leaflet map containing the locations of popular fast food chains in the United States is to help business executives and future franchisees make informed decisions on where and how to expand/improve their business.<br>
 <br>
 - Being able to see the locations of some of the top fast food chains in America can help inform businesses of expansion to areas that are under-serviced and even areas that are over-saturated with categories of food they may offer. In addition to seeing the saturation of locations, the map can help with geographic diversity, and potentially branching out to different parts of the US to avoid being limited or dependent on a single type of region (rural or urban).<br>
