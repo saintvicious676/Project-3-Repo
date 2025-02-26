@@ -27,10 +27,12 @@ The map was created by using Leaflet to plot out the locations of the different 
 <br>
 **Usage:** The map is able to be toggled among all the locations of the restaurants in the dropdown menu, as well as be specific as to which restaurants to be shown, with no limit amongst the choices. Users start the map from the middle of the United States with all locations being toggled on and can navigate to the dropdown menu on the top right of the map to select which franchises to view. The map uses clusters to group locations. To zoom in on a certain part of the map, users can scroll into the area of interest, or click on the cluster group and it will zoom in automatically. To see what restaurants are present in the area, users can click on the marker and a pop-up of the restaurants name will show up above the marker.<br>
 <br>
-**Data source for map:** https://www.kaggle.com/datasets/rishidamarla/fast-food-restaurants-in-america <br>
-**Code source for map creation:** https://leafletjs.com/2012/08/20/guest-post-markerclusterer-0-1-released.html <br>
+**Data source for map:** <br>https://www.kaggle.com/datasets/rishidamarla/fast-food-restaurants-in-america <br>
+<br>
+**Code source for map creation:** <br>https://leafletjs.com/2012/08/20/guest-post-markerclusterer-0-1-released.html <br>
 https://leafletjs.com/examples/geojson/<br>
-**Code reference:** To utilize the data source, I used this website to convert the CSV file into a geoJSON file for Leaflet: https://www.convertcsv.com/csv-to-geojson.htm <br>
+<br>
+**Code reference:** <br>To utilize the data source, I used this website to convert the CSV file into a geoJSON file for Leaflet: https://www.convertcsv.com/csv-to-geojson.htm <br>
 <br>
 **Ethical Considerations to Project**: <br>
 We minimized the data collection to only include relevant information and not include personal information or any identifying characteristics that would be deemed harmful. Specifically for the data regarding for fast food locations, only the location details were gathered and not any personal information about workers from that location. This retains the anonymity of the individuals while allowing us to use the other details of the restaurant.
